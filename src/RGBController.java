@@ -1,7 +1,7 @@
 public class RGBController {
 	public void show(RGB rgb) {
 		System.out.print("Składowe barwy koloru to: ");
-		System.out.println(rgb);
+		System.out.println("["+rgb.getR_value()+", "+rgb.getG_value()+", "+rgb.getB_value()+"]");
 	}
 	
 	public RGB mixed(RGB rgb1, RGB rgb2) {
