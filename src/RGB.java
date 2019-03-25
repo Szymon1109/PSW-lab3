@@ -37,8 +37,13 @@ public class RGB {
 	public void setB_value(int B_value) {
 		this.B_value = B_value;
 	}
-	
+
+	@Override
 	public String toString() {
-		return this.getClass().getName();
+		return "RGB{" +
+				"R_value=" + R_value +
+				", G_value=" + G_value +
+				", B_value=" + B_value +
+				'}';
 	}
 }
